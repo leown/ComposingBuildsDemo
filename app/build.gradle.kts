@@ -37,6 +37,7 @@ android {
 
 dependencies {
 
+    // 使用plugin-version中声明的 Libs.kt 的三方库
     implementation(Libs.coreKtx)
     implementation(Libs.appcompat)
     testImplementation(Libs.junit)
